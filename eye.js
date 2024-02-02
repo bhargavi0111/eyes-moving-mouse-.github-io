@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-container.addEventListener("mousemove","touchmove", (e) => {
+container.addEventListener("mousemove", (e) => {
   const eyesArray=Array.from(document.querySelectorAll(".eye"));
   eyesArray.forEach( function (eye){
      // Get the mouse position on the horizontal axis
